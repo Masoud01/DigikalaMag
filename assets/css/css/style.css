@@ -1,0 +1,45 @@
+@import "font.css";
+@import "_header.css";
+@import "_nav.css";
+
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: IRANSans;
+}
+
+body {
+  direction: rtl;
+  background-color: #fafafa;
+}
+
+a {
+  text-decoration: none;
+  color: #616161 !important;
+}
+
+li,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.btn-custom {
+  width: 250px !important;
+  line-height: 49px !important;
+  height: 48px;
+  text-align: center !important;
+}
+
+::placeholder {
+  font-size: 13px;
+  padding: 0 32px;
+}
+
+.dropdown-menu{
+  top: 53px !important; 
+}
