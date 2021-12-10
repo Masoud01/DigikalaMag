@@ -1,0 +1,8 @@
+.header{
+    height: 80px;
+}
+.header_top{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
